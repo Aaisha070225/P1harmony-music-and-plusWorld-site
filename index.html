@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="design.css">
 </head>
 <body>
+  
     <div class="container">
 <nav class="navbar">
     <div class="navbar-brand">
@@ -24,6 +25,14 @@
 
     <!--Menu right!-->
     <div class="navbar-end">
+
+        <a href="#" class="button is-dark" onclick="toogleMode()">Theme button</a>
+     
+        <a href="https://www.instagram.com/p1h_official/" class="navbar-item"><img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/></a>
+        <a href= https://open.spotify.com/artist/3JjvsPeGMbDJqsphe2z8xU class="navbar-item"><img src="https://img.icons8.com/color/48/spotify--v1.png" alt="spotify--v1"/></a>
+     <a href=https://www.youtube.com/@P1Harmonyofficial/featured class="navbar-item"><img src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/></a>
+            <a href=https://soundcloud.com/official-p1harmony class="navbar-item"><img src="https://img.icons8.com/color/48/soundcloud.png" alt="soundcloud"/></a>
+
     </div>
 
 </nav>
@@ -36,4 +45,19 @@
     <div class="column is-one-third">
         <iframe width="90%" height="315" src="https://www.youtube.com/embed/v91WASdTtt4?si=JSBT_PGdjmUIeHum" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+<script>
+    function toogleMode(){
+    
+       html = document.getElementsByTagName("html");
+       html[0].classList.toggle("theme-dark");
+       html[0].classList.toggle("theme-light");
+
+    }
+</script>
+
+</body>
 </html>
+
+
+
+  
